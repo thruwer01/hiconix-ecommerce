@@ -1,0 +1,9 @@
+
+sitemap - 3 files 
+
+
+
+sitemap-stat.xml - статические страницы
+sitemap-public.xml - публикации
+sitemap-product.xml - товары
+sitemap-parents.xml - серии & категории 

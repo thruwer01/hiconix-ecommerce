@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www.)?u1501272.isp.regruhosting.ru$
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /public/$1
+RewriteCond %{HTTP_HOST} ^(www.)?u1501272.isp.regruhosting.ru$
+RewriteRule ^(/)?$ public/index.php [L]
